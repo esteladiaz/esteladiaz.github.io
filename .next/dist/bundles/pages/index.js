@@ -194,13 +194,13 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
       {
         className: 'jsx-3267370368' + ' ' + 'markdown'
       },
-      __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_react_markdown___default.a, { source: '\nThis is our blog post.\nYes. We can have a [link](/about).\nAnd we can have a title as well.\n\n### hi do u work test\n\nAnd here\'s the content.\n     ' }),
+      __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_react_markdown___default.a, { source: '\ntesting markdown\nwords? [links?](/about).\n\n### hi do u wosgsafgasgrk test\n     ' }),
       __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
         'p',
         {
           className: 'jsx-3267370368' + ' ' + 'example'
         },
-        'If I change you -- how do I change you ugh'
+        'pls change'
       )
     ),
     __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
