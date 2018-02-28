@@ -6,16 +6,13 @@ export default (props) => (
    <h1>{props.url.query.title}</h1>
    <div className="markdown">
      <Markdown source={`
-This is our blog post.
-Yes. We can have a [link](/about).
-And we can have a title as well.
+testing markdown
+words? [links?](/about).
 
 ### hi do u wosgsafgasgrk test
-
-And here's the content.
      `}/>
      <p className="example">
-     If I change you -- how do I change you ugh
+     pls change
      </p>
    </div>
    <style jsx global>{`
