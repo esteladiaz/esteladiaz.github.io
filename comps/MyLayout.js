@@ -11,8 +11,17 @@ const Layout = (props) => (
     <Header />
     {props.children}
     <style jsx global>{`
+      .nav > a {
+        color: black;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-right: 20px;
+        font-family: 'Roboto Mono';
+        text-decoration: none;
+      }
       body {
         background-color: #f7ccc7;
+        font-family: 'Roboto', sans-serif;
       }
       .markdown {
         font-family: 'Roboto', sans-serif;

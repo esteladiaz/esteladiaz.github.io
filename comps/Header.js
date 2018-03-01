@@ -1,31 +1,21 @@
 import Link from 'next/link'
 import Markdown from 'react-markdown'
-
-const styles = {
-  marginRight: 20,
-  fontFamily: 'Roboto Mono',
-  textDecorationLine: 'none'
-}
+import Metadata from './Metadata.js'
 
 const Header = () => (
-  <div>
+  <div className="nav">
+  <Metadata />
     <Link href="/">
-      <a style={styles}>Home</a>
+      <a>Home</a>
     </Link>
     <Link href="/work">
-      <a style={styles}>Work</a>
+      <a>Work</a>
     </Link>
     <Link href="/about">
-      <a style={styles}>About</a>
+      <a>About</a>
     </Link>
 
-    <style jsx>{`
-      a {
-        color: black;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-      }
-   `}</style>
+
   </div>
 )
 

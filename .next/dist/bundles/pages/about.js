@@ -67,7 +67,7 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -295,7 +295,7 @@ var Layout = function Layout(props) {
 
 /***/ }),
 
-/***/ "./pages/work.js":
+/***/ "./pages/about.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -303,7 +303,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__comps_MyLayout_js__ = __webpack_require__("./comps/MyLayout.js");
-var _jsxFileName = '/Users/esteladiaz/Desktop/fuckyou/next-play/pages/work.js';
+var _jsxFileName = '/Users/esteladiaz/Desktop/fuckyou/next-play/pages/about.js';
 
 
 
@@ -324,17 +324,17 @@ var _jsxFileName = '/Users/esteladiaz/Desktop/fuckyou/next-play/pages/work.js';
                lineNumber: 5
             }
          },
-         'werk werk werk werk werk'
+         'lol hi'
       )
    );
 });
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__("./pages/work.js");
+module.exports = __webpack_require__("./pages/about.js");
 
 
 /***/ }),
@@ -375,4 +375,4 @@ module.exports = require("styled-jsx/style");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=work.js.map
+//# sourceMappingURL=about.js.map

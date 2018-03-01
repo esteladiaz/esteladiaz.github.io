@@ -1,8 +1,8 @@
 module.exports =
 
-        __NEXT_REGISTER_PAGE('/work', function() {
+        __NEXT_REGISTER_PAGE('/about', function() {
           var comp = 
-      webpackJsonp([6],{
+      webpackJsonp([5],{
 
 /***/ "./comps/Header.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -20330,7 +20330,7 @@ function extend() {
 
 /***/ }),
 
-/***/ "./pages/work.js":
+/***/ "./pages/about.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -20338,7 +20338,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/cjs/react.development.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__comps_MyLayout_js__ = __webpack_require__("./comps/MyLayout.js");
-var _jsxFileName = '/Users/esteladiaz/Desktop/fuckyou/next-play/pages/work.js';
+var _jsxFileName = '/Users/esteladiaz/Desktop/fuckyou/next-play/pages/about.js';
 
 
 (function () {
@@ -20366,7 +20366,7 @@ var _default = function _default() {
                lineNumber: 5
             }
          },
-         'werk werk werk werk werk'
+         'lol hi'
       )
    );
 };
@@ -20383,7 +20383,7 @@ var _default = function _default() {
       return;
    }
 
-   reactHotLoader.register(_default, 'default', '/Users/esteladiaz/Desktop/fuckyou/next-play/pages/work.js');
+   reactHotLoader.register(_default, 'default', '/Users/esteladiaz/Desktop/fuckyou/next-play/pages/about.js');
    leaveModule(module);
 })();
 
@@ -20404,22 +20404,22 @@ var _default = function _default() {
           next.router.update(r, Component)
         }
       }
-    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/work")
+    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/about")
   
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/webpack/buildin/harmony-module.js")(module)))
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__("./pages/work.js");
+module.exports = __webpack_require__("./pages/about.js");
 
 
 /***/ })
 
-},[4])
+},[3])
           return { page: comp.default }
         })
       ;
-//# sourceMappingURL=work.js.map
+//# sourceMappingURL=about.js.map
