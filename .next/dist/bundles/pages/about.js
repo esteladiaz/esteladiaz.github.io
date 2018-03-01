@@ -259,7 +259,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'div',
             { className: 'markdown' },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_react_markdown___default.a, { source: '\n# # README.md (from [this repo](https://github.com/esteladiaz/esteladiaz.github.io){:target="_blank"})\n I taught myself how to code a while ago, and decided that that\'s what I like to do.\n\n I\'ve been playing with React for a while, and tried fully diving in a few weeks ago.\n\n I could\'ve built this with static HTML and generic routing -- but this framework is too fun to lose a practice opportunity.\n\n I want to get my hands dirty.\n\n Need collaborators? I\'m your gal.\n        ' })
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_react_markdown___default.a, { source: '\n# # README.md (from [this repo](https://github.com/esteladiaz/esteladiaz.github.io))\n\n I taught myself how to code a while ago, and decided that that\'s what I like to do.\n\n I\'ve been playing with React for a while, and tried fully diving in a few weeks ago.\n\n I could\'ve built this with static HTML and generic routing -- but this library is too fun to lose a practice opportunity.\n\n I want to get my hands dirty.\n\n Need collaborators? I\'m your gal.\n        ' })
         )
     );
 });
