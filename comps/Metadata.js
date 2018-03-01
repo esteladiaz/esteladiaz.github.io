@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 const Metadata = () => (
-  <div>
+  <Head>
     <meta charSet="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Front-End Developer based in San Francisco, CA."/>
@@ -14,7 +14,9 @@ const Metadata = () => (
     <title>
     Estela Diaz
     </title>
-  </div>
+
+
+  </Head>
 )
 
 export default Metadata

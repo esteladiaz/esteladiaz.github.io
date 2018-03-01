@@ -5,9 +5,7 @@ import Head from 'next/head'
 
 export default (props) => (
   <Layout>
-   <Head>
     <Metadata />
-   </Head>
    <h1>{props.url.query.title}</h1>
    <div className="markdown">
      <Markdown source={`
