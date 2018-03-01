@@ -78,6 +78,12 @@ module.exports = require("react");
 
 /***/ }),
 /* 1 */
+/***/ (function(module, exports) {
+
+module.exports = require("react-markdown");
+
+/***/ }),
+/* 2 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -87,37 +93,43 @@ var external__react_ = __webpack_require__(0);
 var external__react__default = /*#__PURE__*/__webpack_require__.n(external__react_);
 
 // EXTERNAL MODULE: external "next/link"
-var link_ = __webpack_require__(2);
+var link_ = __webpack_require__(3);
 var link__default = /*#__PURE__*/__webpack_require__.n(link_);
+
+// EXTERNAL MODULE: external "react-markdown"
+var external__react_markdown_ = __webpack_require__(1);
+var external__react_markdown__default = /*#__PURE__*/__webpack_require__.n(external__react_markdown_);
 
 // CONCATENATED MODULE: ./comps/Header.js
 
 
 
+
 var linkStyle = {
-  marginRight: 15
+  marginRight: 15,
+  fontFamily: 'Roboto Mono'
 };
 
 var Header_Header = function Header() {
   return external__react__default.a.createElement(
-    "div",
+    'div',
     null,
     external__react__default.a.createElement(
       link__default.a,
-      { href: "/" },
+      { href: '/' },
       external__react__default.a.createElement(
-        "a",
+        'a',
         { style: linkStyle },
-        "Home"
+        'Home'
       )
     ),
     external__react__default.a.createElement(
       link__default.a,
-      { href: "/about" },
+      { href: '/about' },
       external__react__default.a.createElement(
-        "a",
+        'a',
         { style: linkStyle },
-        "About"
+        'About'
       )
     )
   );
@@ -146,13 +158,12 @@ var MyLayout_Layout = function Layout(props) {
 /* harmony default export */ var MyLayout = __webpack_exports__["a"] = (MyLayout_Layout);
 
 /***/ }),
-/* 2 */
+/* 3 */
 /***/ (function(module, exports) {
 
 module.exports = require("next/link");
 
 /***/ }),
-/* 3 */,
 /* 4 */,
 /* 5 */,
 /* 6 */,
@@ -175,7 +186,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_regenerator___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_regenerator__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__comps_MyLayout_js__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__comps_MyLayout_js__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_isomorphic_unfetch__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_isomorphic_unfetch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_isomorphic_unfetch__);
 

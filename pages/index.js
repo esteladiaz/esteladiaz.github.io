@@ -5,12 +5,13 @@ import Head from 'next/head'
 export default (props) => (
   <Layout>
    <Head>
+      <meta charSet="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="description" content="Front-End Developer based in San Francisco, CA."/>
       <meta name="twitter:card" content="summary"/>
       <meta name="twitter:site" content="@_diazela"/>
-      <meta name="twitter:title" content="Estela Diaz: Front-End Developer"/>
-      <meta name="twitter:description" content="Based in San Francisco, CA. Let's build things together."/>
+      <meta name="twitter:title" content="Hi, I'm Estela <3"/>
+      <meta name="twitter:description" content="Front-End Developer and generalist based in San Francisco, CA."/>
       <meta name="twitter:image:src" content="https://github.com/esteladiaz/esteladiaz.github.io/raw/master/statics/img/twittercard.jpg"/>
       <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono" rel="stylesheet"/>
       <title>
@@ -31,6 +32,9 @@ export default (props) => (
      </p>
    </div>
    <style jsx global>{`
+     body {
+       background-color: #f7ccc7;
+     }
      .markdown {
        font-family: 'Roboto', sans-serif;
      }

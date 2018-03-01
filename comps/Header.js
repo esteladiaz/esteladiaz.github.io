@@ -1,7 +1,9 @@
 import Link from 'next/link'
+import Markdown from 'react-markdown'
 
 const linkStyle = {
-  marginRight: 15
+  marginRight: 15,
+  fontFamily: 'Roboto Mono'
 }
 
 const Header = () => (
