@@ -2,6 +2,6 @@ import Layout from '../comps/MyLayout.js'
 
 export default () => (
     <Layout>
-       <p>This is the about page</p>
+       <p>lol hi</p>
     </Layout>
 )
