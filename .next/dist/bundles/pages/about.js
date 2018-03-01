@@ -129,8 +129,8 @@ var Header_Header = function Header() {
 
 
 var layoutStyle = {
-  margin: 20,
-  padding: 20,
+  margin: 50,
+  padding: 50,
   border: '1px solid #DDD'
 };
 

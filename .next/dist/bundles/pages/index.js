@@ -129,8 +129,8 @@ var Header_Header = function Header() {
 
 
 var layoutStyle = {
-  margin: 20,
-  padding: 20,
+  margin: 50,
+  padding: 50,
   border: '1px solid #DDD'
 };
 
@@ -173,6 +173,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__comps_MyLayout_js__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_markdown__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_markdown___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_react_markdown__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_next_head__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_next_head__);
+
 
 
 
@@ -183,29 +186,56 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     __WEBPACK_IMPORTED_MODULE_2__comps_MyLayout_js__["a" /* default */],
     null,
     __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+      __WEBPACK_IMPORTED_MODULE_4_next_head___default.a,
+      null,
+      __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement('meta', { name: 'viewport', content: 'width=device-width, initial-scale=1', className: 'jsx-3911218663'
+      }),
+      __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement('meta', { name: 'description', content: 'Front-End Developer based in San Francisco, CA.', className: 'jsx-3911218663'
+      }),
+      __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement('meta', { name: 'twitter:card', content: 'summary_large_image', className: 'jsx-3911218663'
+      }),
+      __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement('meta', { name: 'twitter:site', content: '@_diazela', className: 'jsx-3911218663'
+      }),
+      __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement('meta', { name: 'twitter:title', content: 'Estela Diaz: Front-End Developer', className: 'jsx-3911218663'
+      }),
+      __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement('meta', { name: 'twitter:description', content: 'Based in San Francisco, CA. Let\'s build things together.', className: 'jsx-3911218663'
+      }),
+      __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement('meta', { name: 'twitter:image:src', content: '../statics/img/twittercard.jpg', className: 'jsx-3911218663'
+      }),
+      __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement('link', { href: 'https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono', rel: 'stylesheet', className: 'jsx-3911218663'
+      }),
+      __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+        'title',
+        {
+          className: 'jsx-3911218663'
+        },
+        'Estela Diaz'
+      )
+    ),
+    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
       'h1',
       {
-        className: 'jsx-3267370368'
+        className: 'jsx-3911218663'
       },
       props.url.query.title
     ),
     __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
       'div',
       {
-        className: 'jsx-3267370368' + ' ' + 'markdown'
+        className: 'jsx-3911218663' + ' ' + 'markdown'
       },
-      __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_react_markdown___default.a, { source: '\ntesting markdown\nwords? [links?](/about).\n\n### hi do u wosgsafgasgrk test\n     ' }),
+      __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_react_markdown___default.a, { source: '\n  # Hi\n\n  I\'m a Next.js app hosted with Google. I\'m going to show you how awesome Estela is soon.\n\n  ### WORK IN PROGRESS\n       ' }),
       __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
         'p',
         {
-          className: 'jsx-3267370368' + ' ' + 'example'
+          className: 'jsx-3911218663' + ' ' + 'example'
         },
-        'pls change'
+        'element test'
       )
     ),
     __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
-      styleId: '3267370368',
-      css: ['.markdown{font-family:\'Arial\';}', '.markdown a{text-decoration:none;color:blue;}', '.markdown a:hover{opacity:0.6;}', '.markdown h3{margin:0;padding:0;text-transform:uppercase;}']
+      styleId: '3911218663',
+      css: ['.markdown{font-family:\'Roboto\',sans-serif;}', '.markdown a{text-decoration:none;color:blue;font-family:\'Roboto Mono\',sans-serif;}', '.markdown a:hover{opacity:0.6;}', '.markdown h3{margin:0;padding:0;text-transform:uppercase;}']
     })
   );
 });
@@ -221,6 +251,12 @@ module.exports = require("styled-jsx/style");
 /***/ (function(module, exports) {
 
 module.exports = require("react-markdown");
+
+/***/ }),
+/* 9 */
+/***/ (function(module, exports) {
+
+module.exports = require("next/head");
 
 /***/ })
 /******/ ]);
