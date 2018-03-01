@@ -67,24 +67,25 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 14);
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 14:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(15);
-
-
-/***/ }),
-
-/***/ 15:
+/***/ "/Users/esteladiaz/Desktop/fuckyou/next-play/node_modules/next/dist/pages/_error.js":
 /***/ (function(module, exports) {
 
 module.exports = require("/Users/esteladiaz/Desktop/fuckyou/next-play/node_modules/next/dist/pages/_error.js");
 
+/***/ }),
+
+/***/ 0:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__("/Users/esteladiaz/Desktop/fuckyou/next-play/node_modules/next/dist/pages/_error.js");
+
+
 /***/ })
 
 /******/ });
+//# sourceMappingURL=_error.js.map

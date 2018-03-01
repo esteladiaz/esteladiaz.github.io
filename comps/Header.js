@@ -1,18 +1,22 @@
 import Link from 'next/link'
 import Markdown from 'react-markdown'
 
-const linkStyle = {
-  marginRight: 15,
-  fontFamily: 'Roboto Mono'
-}
+// const styles = {
+//   marginRight: 15,
+//   fontFamily: 'Roboto Mono',
+//   textDecorationLine: 'none'
+// }
 
 const Header = () => (
   <div>
     <Link href="/">
-      <a style={linkStyle}>Home</a>
+      <a>Home</a>
     </Link>
     <Link href="/about">
-      <a style={linkStyle}>About</a>
+      <a>Work</a>
+    </Link>
+    <Link href="/work">
+      <a>About</a>
     </Link>
   </div>
 )
