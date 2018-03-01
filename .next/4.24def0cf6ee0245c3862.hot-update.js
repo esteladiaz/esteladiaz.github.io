@@ -1,4 +1,4 @@
-webpackHotUpdate(5,{
+webpackHotUpdate(4,{
 
 /***/ "./pages/index.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -33,13 +33,13 @@ var _default = function _default(props) {
     {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 7
+        lineNumber: 8
       }
     },
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__comps_Metadata_js__["a" /* default */], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 8
+        lineNumber: 9
       }
     }),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -47,7 +47,7 @@ var _default = function _default(props) {
       {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 9
+          lineNumber: 10
         }
       },
       props.url.query.title
@@ -56,12 +56,12 @@ var _default = function _default(props) {
       'div',
       { className: 'markdown', __source: {
           fileName: _jsxFileName,
-          lineNumber: 10
+          lineNumber: 11
         }
       },
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_react_markdown___default.a, { source: '\n  # WORK IN PROGRESS! 2/28/18\n\n  ## Hi\n\n  I\'m a Next.js app hosted with Google. I\'m going to show you how awesome Estela is soon.\n\n\n       ', __source: {
           fileName: _jsxFileName,
-          lineNumber: 11
+          lineNumber: 12
         }
       })
     )
@@ -108,4 +108,4 @@ var _default = function _default(props) {
 /***/ })
 
 })
-//# sourceMappingURL=5.70fcf51694b3d42ebdf2.hot-update.js.map
+//# sourceMappingURL=4.24def0cf6ee0245c3862.hot-update.js.map
