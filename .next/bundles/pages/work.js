@@ -1,8 +1,8 @@
 module.exports =
 
-        __NEXT_REGISTER_PAGE('/', function() {
+        __NEXT_REGISTER_PAGE('/work', function() {
           var comp = 
-      webpackJsonp([5],{
+      webpackJsonp([4],{
 
 /***/ "./comps/Header.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -20330,87 +20330,61 @@ function extend() {
 
 /***/ }),
 
-/***/ "./pages/index.js":
+/***/ "./pages/work.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__ = __webpack_require__("./node_modules/styled-jsx/style.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__("./node_modules/react/cjs/react.development.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__comps_MyLayout_js__ = __webpack_require__("./comps/MyLayout.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__comps_Metadata_js__ = __webpack_require__("./comps/Metadata.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_next_head__ = __webpack_require__("./node_modules/next/head.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_next_head__);
-var _jsxFileName = '/Users/esteladiaz/Desktop/fuckyou/next-play/pages/index.js';
-
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/cjs/react.development.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__comps_MyLayout_js__ = __webpack_require__("./comps/MyLayout.js");
+var _jsxFileName = '/Users/esteladiaz/Desktop/fuckyou/next-play/pages/work.js';
 
 
 (function () {
-  var enterModule = __webpack_require__("./node_modules/react-hot-loader/patch.js").enterModule;
+   var enterModule = __webpack_require__("./node_modules/react-hot-loader/patch.js").enterModule;
 
-  enterModule && enterModule(module);
+   enterModule && enterModule(module);
 })();
 
 
-// import Markdown from 'react-markdown'
 
-
-
-var _default = function _default(props) {
-  return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-    __WEBPACK_IMPORTED_MODULE_2__comps_MyLayout_js__["a" /* default */],
-    {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 8
-      }
-    },
-    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__comps_Metadata_js__["a" /* default */], {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 9
-      }
-    }),
-    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-      'h1',
+var _default = function _default() {
+   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      __WEBPACK_IMPORTED_MODULE_1__comps_MyLayout_js__["a" /* default */],
       {
-        className: 'jsx-1308866084',
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 10
-        }
+         __source: {
+            fileName: _jsxFileName,
+            lineNumber: 4
+         }
       },
-      props.url.query.title
-    ),
-    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement('img', { src: '/static/img/banana.png', className: 'jsx-1308866084' + ' ' + 'banana',
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 12
-      }
-    }),
-    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
-      styleId: '1308866084',
-      css: '.banana.jsx-1308866084{height:500px;position:absolute;top:20%;left:40%;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzL2luZGV4LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVllLEFBR21CLGFBQ00sa0JBQ1YsUUFDQyxTQUNaIiwiZmlsZSI6InBhZ2VzL2luZGV4LmpzIiwic291cmNlUm9vdCI6Ii9Vc2Vycy9lc3RlbGFkaWF6L0Rlc2t0b3AvZnVja3lvdS9uZXh0LXBsYXkiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGF5b3V0IGZyb20gJy4uL2NvbXBzL015TGF5b3V0LmpzJ1xuLy8gaW1wb3J0IE1hcmtkb3duIGZyb20gJ3JlYWN0LW1hcmtkb3duJ1xuaW1wb3J0IE1ldGFkYXRhIGZyb20gJy4uL2NvbXBzL01ldGFkYXRhLmpzJ1xuaW1wb3J0IEhlYWQgZnJvbSAnbmV4dC9oZWFkJ1xuXG5cbmV4cG9ydCBkZWZhdWx0IChwcm9wcykgPT4gKFxuICA8TGF5b3V0PlxuICAgIDxNZXRhZGF0YSAvPlxuICAgPGgxPntwcm9wcy51cmwucXVlcnkudGl0bGV9PC9oMT5cblxuICAgPGltZyBjbGFzc05hbWU9XCJiYW5hbmFcIiBzcmM9XCIvc3RhdGljL2ltZy9iYW5hbmEucG5nXCIvPlxuICAgPHN0eWxlIGpzeD57YFxuICAgLmJhbmFuYSB7XG4gICAgICBoZWlnaHQgNTAwcHg7XG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICB0b3A6IDIwJTtcbiAgICAgIGxlZnQ6IDQwJTtcbiAgIH1cbmB9ICAgPC9zdHlsZT5cbiAgPC9MYXlvdXQ+XG4pXG4iXX0= */\n/*@ sourceURL=pages/index.js */'
-    })
-  );
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+         'p',
+         {
+            __source: {
+               fileName: _jsxFileName,
+               lineNumber: 5
+            }
+         },
+         'Adding soon!'
+      )
+   );
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (_default);
 ;
 
 (function () {
-  var reactHotLoader = __webpack_require__("./node_modules/react-hot-loader/patch.js").default;
+   var reactHotLoader = __webpack_require__("./node_modules/react-hot-loader/patch.js").default;
 
-  var leaveModule = __webpack_require__("./node_modules/react-hot-loader/patch.js").leaveModule;
+   var leaveModule = __webpack_require__("./node_modules/react-hot-loader/patch.js").leaveModule;
 
-  if (!reactHotLoader) {
-    return;
-  }
+   if (!reactHotLoader) {
+      return;
+   }
 
-  reactHotLoader.register(_default, 'default', '/Users/esteladiaz/Desktop/fuckyou/next-play/pages/index.js');
-  leaveModule(module);
+   reactHotLoader.register(_default, 'default', '/Users/esteladiaz/Desktop/fuckyou/next-play/pages/work.js');
+   leaveModule(module);
 })();
 
 ;
@@ -20430,22 +20404,22 @@ var _default = function _default(props) {
           next.router.update(r, Component)
         }
       }
-    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/")
+    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/work")
   
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/webpack/buildin/harmony-module.js")(module)))
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__("./pages/index.js");
+module.exports = __webpack_require__("./pages/work.js");
 
 
 /***/ })
 
-},[3])
+},[4])
           return { page: comp.default }
         })
       ;
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=work.js.map
