@@ -1,6 +1,6 @@
 # Hi, I'm Estela Diaz
 
-I have a degree in science, and experience in life. Taught myself how to code a while ago. Decided that that's what I like to do.
+I taught myself how to code a while ago, and decided that that's what I like to do.
 
 Everything needs code, or some kind of optimization. That's what makes developing so fun for someone like me -- I can hunker down to a singular topic, but as a self-proclaimed generalist, I'd rather not.
 
