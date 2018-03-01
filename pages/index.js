@@ -9,15 +9,14 @@ export default (props) => (
    <h1>{props.url.query.title}</h1>
    <div className="markdown">
      <Markdown source={`
-  # Hi
+  # WORK IN PROGRESS! 2/28/18
+
+  ## Hi
 
   I'm a Next.js app hosted with Google. I'm going to show you how awesome Estela is soon.
 
-  ### WORK IN PROGRESS
+
        `}/>
-     <p className="example">
-     element test
-     </p>
    </div>
   </Layout>
 )
