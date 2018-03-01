@@ -200,7 +200,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
       }),
       __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement('meta', { name: 'twitter:description', content: 'Based in San Francisco, CA. Let\'s build things together.', className: 'jsx-3911218663'
       }),
-      __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement('meta', { name: 'twitter:image:src', content: '../statics/img/twittercard.jpg', className: 'jsx-3911218663'
+      __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement('meta', { name: 'twitter:image:src', content: 'https://github.com/esteladiaz/esteladiaz.github.io/raw/master/statics/img/twittercard.jpg', className: 'jsx-3911218663'
       }),
       __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement('link', { href: 'https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono', rel: 'stylesheet', className: 'jsx-3911218663'
       }),

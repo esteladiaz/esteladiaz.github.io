@@ -7,11 +7,11 @@ export default (props) => (
    <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="description" content="Front-End Developer based in San Francisco, CA."/>
-      <meta name="twitter:card" content="summary_large_image"/>
+      <meta name="twitter:card" content="summary"/>
       <meta name="twitter:site" content="@_diazela"/>
       <meta name="twitter:title" content="Estela Diaz: Front-End Developer"/>
       <meta name="twitter:description" content="Based in San Francisco, CA. Let's build things together."/>
-      <meta name="twitter:image:src" content="../statics/img/twittercard.jpg"/>
+      <meta name="twitter:image:src" content="https://github.com/esteladiaz/esteladiaz.github.io/raw/master/statics/img/twittercard.jpg"/>
       <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono" rel="stylesheet"/>
       <title>
       Estela Diaz
