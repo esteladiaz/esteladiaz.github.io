@@ -1,5 +1,6 @@
 import Layout from '../comps/MyLayout.js'
 import Markdown from 'react-markdown'
+import Social from '../comps/Social.js'
 
 export default () => (
     <Layout>
@@ -19,6 +20,7 @@ export default () => (
  Need collaborators? I'm your gal.
         `}/>
     </div>
+    <Social />
     </div>
     </Layout>
 )
