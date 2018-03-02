@@ -7,7 +7,7 @@ export default () => (
     <div className="hero">
     <div className="markdown">
       <Markdown source={`
-# TL;DR on me (from [this repo](https://github.com/esteladiaz/esteladiaz.github.io))
+# TL;DR on me
 
  I taught myself how to code a while ago, and decided that that's what I like to do.
 
