@@ -180,7 +180,7 @@ var Metadata = function Metadata() {
         lineNumber: 10
       }
     }),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", { name: "twitter:description", content: "Front-End Developer and generalist based in San Francisco, CA.", __source: {
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", { name: "twitter:description", content: "Front-End Developer / professional extrovert based in San Francisco, CA.", __source: {
         fileName: _jsxFileName,
         lineNumber: 11
       }
@@ -204,7 +204,12 @@ var Metadata = function Metadata() {
         }
       },
       "Estela Diaz"
-    )
+    ),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", { defer: true, src: "https://use.fontawesome.com/releases/v5.0.8/js/all.js", __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18
+      }
+    })
   );
 };
 
@@ -262,7 +267,7 @@ var Layout = function Layout(props) {
   return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
     'div',
     {
-      className: 'jsx-695074597',
+      className: 'jsx-3639639178',
       __source: {
         fileName: _jsxFileName,
         lineNumber: 10
@@ -275,9 +280,15 @@ var Layout = function Layout(props) {
       }
     }),
     props.children,
+    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement('img', { src: '/static/img/banana.png', className: 'jsx-3639639178' + ' ' + 'banana',
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 13
+      }
+    }),
     __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
-      styleId: '695074597',
-      css: '.nav>a{color:black;text-transform:uppercase;-webkit-letter-spacing:1px;-moz-letter-spacing:1px;-ms-letter-spacing:1px;letter-spacing:1px;margin-right:20px;font-family:\'Roboto Mono\';text-decoration:none;}body{background-color:#f7ccc7;font-family:\'Roboto\',sans-serif;}.markdown{font-family:\'Roboto\',sans-serif;}.markdown a{text-decoration:none;color:blue;font-family:\'Roboto Mono\',sans-serif;}.markdown a:hover{opacity:0.6;}.markdown h3{margin:0;padding:0;text-transform:uppercase;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBzL015TGF5b3V0LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVl1QixBQUdxQixBQVFhLEFBSVEsQUFJWixBQU1ULEFBSUgsU0FDQyxHQTFCZSxBQXNCM0IsT0FLMkIsRUFYZCxJQVJzQixPQUluQyxBQUt3QyxLQWhCbkIsT0EyQnJCLGFBbkJBLFlBU0EsNkRBaEJvQixrQkFDUSwwQkFDTCxxQkFDdkIiLCJmaWxlIjoiY29tcHMvTXlMYXlvdXQuanMiLCJzb3VyY2VSb290IjoiL1VzZXJzL2VzdGVsYWRpYXovRGVza3RvcC9mdWNreW91L25leHQtcGxheSIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkZXIgZnJvbSAnLi9IZWFkZXInXG5cbmNvbnN0IGxheW91dFN0eWxlID0ge1xuICBtYXJnaW46IDUwLFxuICBwYWRkaW5nOiA1MCxcbiAgYm9yZGVyOiAnMXB4IHNvbGlkICNEREQnXG59XG5cbmNvbnN0IExheW91dCA9IChwcm9wcykgPT4gKFxuICA8ZGl2PlxuICAgIDxIZWFkZXIgLz5cbiAgICB7cHJvcHMuY2hpbGRyZW59XG4gICAgPHN0eWxlIGpzeCBnbG9iYWw+e2BcbiAgICAgIC5uYXYgPiBhIHtcbiAgICAgICAgY29sb3I6IGJsYWNrO1xuICAgICAgICB0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlO1xuICAgICAgICBsZXR0ZXItc3BhY2luZzogMXB4O1xuICAgICAgICBtYXJnaW4tcmlnaHQ6IDIwcHg7XG4gICAgICAgIGZvbnQtZmFtaWx5OiAnUm9ib3RvIE1vbm8nO1xuICAgICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG4gICAgICB9XG4gICAgICBib2R5IHtcbiAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogI2Y3Y2NjNztcbiAgICAgICAgZm9udC1mYW1pbHk6ICdSb2JvdG8nLCBzYW5zLXNlcmlmO1xuICAgICAgfVxuICAgICAgLm1hcmtkb3duIHtcbiAgICAgICAgZm9udC1mYW1pbHk6ICdSb2JvdG8nLCBzYW5zLXNlcmlmO1xuICAgICAgfVxuXG4gICAgICAubWFya2Rvd24gYSB7XG4gICAgICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgICAgICAgY29sb3I6IGJsdWU7XG4gICAgICAgIGZvbnQtZmFtaWx5OiAnUm9ib3RvIE1vbm8nLCBzYW5zLXNlcmlmO1xuICAgICAgfVxuXG4gICAgICAubWFya2Rvd24gYTpob3ZlciB7XG4gICAgICAgIG9wYWNpdHk6IDAuNjtcbiAgICAgIH1cblxuICAgICAgLm1hcmtkb3duIGgzIHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICB0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlO1xuICAgICAgfVxuICAgYH08L3N0eWxlPlxuICA8L2Rpdj5cbilcblxuZXhwb3J0IGRlZmF1bHQgTGF5b3V0XG4iXX0= */\n/*@ sourceURL=comps/MyLayout.js */'
+      styleId: '3639639178',
+      css: 'div.nav{position:relative;text-align:center;margin-top:30px;}.nav>a{color:black;text-transform:uppercase;-webkit-letter-spacing:1px;-moz-letter-spacing:1px;-ms-letter-spacing:1px;letter-spacing:1px;margin-right:20px;font-family:\'Roboto Mono\';text-decoration:none;}.aboutLink{text-decoration:underline;font-weight:900;color:black;}.social{height:50px;}div.social>a{color:black;margin-right:20px;font-family:\'Roboto Mono\';text-decoration:none;}body{background-color:#f7ccc7;font-family:\'Roboto\',sans-serif;}.markdown{font-family:\'Roboto\',sans-serif;}.markdown a{text-decoration:none;color:blue;font-family:\'Roboto Mono\',sans-serif;}.markdown a:hover{opacity:0.6;}.hero{padding:50px;}.markdown h3{margin:0;padding:0;text-transform:uppercase;}.banana{height:500px;position:absolute;top:20%;left:40%;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBzL015TGF5b3V0LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWF1QixBQUcyQixBQUtOLEFBUWMsQUFLZCxBQUdBLEFBTWEsQUFJUSxBQUlaLEFBTVQsQUFHQyxBQUdKLEFBS0ksU0FKSCxHQTFDZSxBQWEzQixBQUdvQixBQW9CcEIsQ0FHQSxBQVFxQixLQXBERCxDQWdETyxFQWJkLElBUnNCLENBZGpCLElBU1UsQ0ErQmpCLENBdEJYLEFBS3dDLElBbkN0QixDQUtHLEVBZ0RULEdBeENFLEVBbUNkLElBTUEsSUFyREEsRUFhQSxFQVF1QixDQUt2QixZQVNBLFFBYkEscURBakJvQixrQkFDUSwwQkFDTCxxQkFDdkIiLCJmaWxlIjoiY29tcHMvTXlMYXlvdXQuanMiLCJzb3VyY2VSb290IjoiL1VzZXJzL2VzdGVsYWRpYXovRGVza3RvcC9mdWNreW91L25leHQtcGxheSIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkZXIgZnJvbSAnLi9IZWFkZXInXG5cbmNvbnN0IGxheW91dFN0eWxlID0ge1xuICBtYXJnaW46IDUwLFxuICBwYWRkaW5nOiA1MCxcbiAgYm9yZGVyOiAnMXB4IHNvbGlkICNEREQnXG59XG5cbmNvbnN0IExheW91dCA9IChwcm9wcykgPT4gKFxuICA8ZGl2PlxuICAgIDxIZWFkZXIgLz5cbiAgICB7cHJvcHMuY2hpbGRyZW59XG4gICAgPGltZyBjbGFzc05hbWU9XCJiYW5hbmFcIiBzcmM9XCIvc3RhdGljL2ltZy9iYW5hbmEucG5nXCIvPlxuICAgIDxzdHlsZSBqc3ggZ2xvYmFsPntgXG4gICAgICBkaXYubmF2IHtcbiAgICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICAgIG1hcmdpbi10b3A6IDMwcHg7XG4gICAgICB9XG4gICAgICAubmF2ID4gYSB7XG4gICAgICAgIGNvbG9yOiBibGFjaztcbiAgICAgICAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcbiAgICAgICAgbGV0dGVyLXNwYWNpbmc6IDFweDtcbiAgICAgICAgbWFyZ2luLXJpZ2h0OiAyMHB4O1xuICAgICAgICBmb250LWZhbWlseTogJ1JvYm90byBNb25vJztcbiAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICAgICAgfVxuICAgICAgLmFib3V0TGluayB7XG4gICAgICAgIHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lO1xuICAgICAgICBmb250LXdlaWdodDogOTAwO1xuICAgICAgICBjb2xvcjogYmxhY2s7XG4gICAgICB9XG4gICAgICAuc29jaWFsIHtcbiAgICAgICAgaGVpZ2h0OiA1MHB4O1xuICAgICAgfVxuICAgICAgZGl2LnNvY2lhbCA+IGEge1xuICAgICAgICBjb2xvcjogYmxhY2s7XG4gICAgICAgIG1hcmdpbi1yaWdodDogMjBweDtcbiAgICAgICAgZm9udC1mYW1pbHk6ICdSb2JvdG8gTW9ubyc7XG4gICAgICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgICAgIH1cbiAgICAgIGJvZHkge1xuICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjdjY2M3O1xuICAgICAgICBmb250LWZhbWlseTogJ1JvYm90bycsIHNhbnMtc2VyaWY7XG4gICAgICB9XG4gICAgICAubWFya2Rvd24ge1xuICAgICAgICBmb250LWZhbWlseTogJ1JvYm90bycsIHNhbnMtc2VyaWY7XG4gICAgICB9XG5cbiAgICAgIC5tYXJrZG93biBhIHtcbiAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICAgICAgICBjb2xvcjogYmx1ZTtcbiAgICAgICAgZm9udC1mYW1pbHk6ICdSb2JvdG8gTW9ubycsIHNhbnMtc2VyaWY7XG4gICAgICB9XG5cbiAgICAgIC5tYXJrZG93biBhOmhvdmVyIHtcbiAgICAgICAgb3BhY2l0eTogMC42O1xuICAgICAgfVxuICAgICAgLmhlcm8ge1xuICAgICAgICBwYWRkaW5nOiA1MHB4O1xuICAgICAgfVxuICAgICAgLm1hcmtkb3duIGgzIHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICB0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlO1xuICAgICAgfVxuICAgICAgLmJhbmFuYSB7XG4gICAgICAgICBoZWlnaHQgNTAwcHg7XG4gICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICAgICB0b3A6IDIwJTtcbiAgICAgICAgIGxlZnQ6IDQwJTtcbiAgICAgIH1cbiAgIGB9PC9zdHlsZT5cbiAgPC9kaXY+XG4pXG5cbmV4cG9ydCBkZWZhdWx0IExheW91dFxuIl19 */\n/*@ sourceURL=comps/MyLayout.js */'
     })
   );
 };
@@ -20363,16 +20374,24 @@ var _default = function _default() {
         },
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'div',
-            { className: 'markdown', __source: {
+            { className: 'hero', __source: {
                     fileName: _jsxFileName,
                     lineNumber: 6
                 }
             },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_react_markdown___default.a, { source: '\n# # README.md (from [this repo](https://github.com/esteladiaz/esteladiaz.github.io))\n\n I taught myself how to code a while ago, and decided that that\'s what I like to do.\n\n I\'ve been playing with React for a while, and tried fully diving in a few weeks ago.\n\n I could\'ve built this with static HTML and generic routing -- but this library is too fun to lose a practice opportunity.\n\n I want to get my hands dirty.\n\n Need collaborators? I\'m your gal.\n        ', __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 7
-                }
-            })
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'markdown', __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 7
+                    }
+                },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_react_markdown___default.a, { source: '\n# TL;DR on me (from [this repo](https://github.com/esteladiaz/esteladiaz.github.io))\n\n I taught myself how to code a while ago, and decided that that\'s what I like to do.\n\n I\'ve been playing with React for a while, and tried fully diving in a few weeks ago.\n\n I could\'ve built this with static HTML and generic routing -- but this library is too fun to lose a practice opportunity.\n\n I want to get my hands dirty.\n\n Need collaborators? I\'m your gal.\n        ', __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 8
+                    }
+                })
+            )
         )
     );
 };
@@ -20416,7 +20435,7 @@ var _default = function _default() {
 
 /***/ }),
 
-/***/ 2:
+/***/ 4:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/about.js");
@@ -20424,7 +20443,7 @@ module.exports = __webpack_require__("./pages/about.js");
 
 /***/ })
 
-},[2])
+},[4])
           return { page: comp.default }
         })
       ;

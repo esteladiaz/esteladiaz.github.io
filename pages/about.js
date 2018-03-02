@@ -3,9 +3,10 @@ import Markdown from 'react-markdown'
 
 export default () => (
     <Layout>
+    <div className="hero">
     <div className="markdown">
       <Markdown source={`
-# # README.md (from [this repo](https://github.com/esteladiaz/esteladiaz.github.io))
+# TL;DR on me (from [this repo](https://github.com/esteladiaz/esteladiaz.github.io))
 
  I taught myself how to code a while ago, and decided that that's what I like to do.
 
@@ -17,6 +18,7 @@ export default () => (
 
  Need collaborators? I'm your gal.
         `}/>
+    </div>
     </div>
     </Layout>
 )
