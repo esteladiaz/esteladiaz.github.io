@@ -17,7 +17,7 @@ export default (props) => (
             <a className="aboutLink">about</a>
           </Link> section.</p>
 
-     <p>Or, follow me on social media:</p>
+     <p>Or, follow me around the internet:</p>
      <Social />
   </div>
   </Layout>

@@ -32,6 +32,7 @@ const Layout = (props) => (
       }
       .social {
         height: 50px;
+        text-align: center;
       }
       div.social > a {
         color: black;
@@ -69,6 +70,12 @@ const Layout = (props) => (
          position: absolute;
          top: 20%;
          left: 40%;
+         z-index: -1;
+      }
+      @media screen and (max-width: 450px) {
+        .banana {
+          display: none;
+        }
       }
    `}</style>
   </div>
