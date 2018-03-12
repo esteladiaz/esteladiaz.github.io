@@ -1,4 +1,7 @@
-module.exports = {
+const withCSS = require('@zeit/next-css')
+
+
+module.exports = withCSS({
   exportPathMap: function () {
     return {
       '/': { page: '/' },
@@ -9,4 +12,4 @@ module.exports = {
       '/p/exporting-pages': { page: '/post', query: { title: "Learn to Export HTML Pages" } }
     }
   }
-}
+})

@@ -67,137 +67,296 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 10);
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
 /******/ })
 /************************************************************************/
-/******/ ([
-/* 0 */
-/***/ (function(module, exports) {
+/******/ ({
 
-module.exports = require("react");
-
-/***/ }),
-/* 1 */
-/***/ (function(module, exports) {
-
-module.exports = require("next/link");
-
-/***/ }),
-/* 2 */
-/***/ (function(module, exports) {
-
-module.exports = require("react-markdown");
-
-/***/ }),
-/* 3 */
+/***/ "./comps/Header.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_head__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_head__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link__ = __webpack_require__("next/link");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_markdown__ = __webpack_require__("react-markdown");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_markdown___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react_markdown__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Metadata_js__ = __webpack_require__("./comps/Metadata.js");
+var _jsxFileName = '/Users/esteladiaz/Desktop/fuckyou/next-play/comps/Header.js';
 
 
 
-var Metadata = function Metadata() {
+
+
+var Header = function Header() {
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-    __WEBPACK_IMPORTED_MODULE_1_next_head___default.a,
-    null,
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", { charSet: "utf-8" }),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", { name: "viewport", content: "width=device-width, initial-scale=1" }),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", { name: "description", content: "Front-End Developer based in San Francisco, CA." }),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", { name: "twitter:card", content: "summary" }),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", { name: "twitter:site", content: "@_diazela" }),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", { name: "twitter:title", content: "Hi, I'm Estela <3" }),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", { name: "twitter:description", content: "Front-End Developer / professional extrovert based in San Francisco, CA." }),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", { name: "twitter:image:src", content: "https://github.com/esteladiaz/esteladiaz.github.io/raw/master/statics/img/twittercard.jpg" }),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", { href: "https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono", rel: "stylesheet" }),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      "title",
-      null,
-      "Estela Diaz"
-    ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", { defer: true, src: "https://use.fontawesome.com/releases/v5.0.8/js/all.js" })
-  );
-};
-
-/* harmony default export */ __webpack_exports__["a"] = (Metadata);
-
-/***/ }),
-/* 4 */
-/***/ (function(module, exports) {
-
-module.exports = require("next/head");
-
-/***/ }),
-/* 5 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-
-// EXTERNAL MODULE: external "styled-jsx/style"
-var style_ = __webpack_require__(6);
-var style__default = /*#__PURE__*/__webpack_require__.n(style_);
-
-// EXTERNAL MODULE: external "react"
-var external__react_ = __webpack_require__(0);
-var external__react__default = /*#__PURE__*/__webpack_require__.n(external__react_);
-
-// EXTERNAL MODULE: external "next/link"
-var link_ = __webpack_require__(1);
-var link__default = /*#__PURE__*/__webpack_require__.n(link_);
-
-// EXTERNAL MODULE: external "react-markdown"
-var external__react_markdown_ = __webpack_require__(2);
-var external__react_markdown__default = /*#__PURE__*/__webpack_require__.n(external__react_markdown_);
-
-// EXTERNAL MODULE: ./comps/Metadata.js
-var Metadata = __webpack_require__(3);
-
-// CONCATENATED MODULE: ./comps/Header.js
-
-
-
-
-
-var Header_Header = function Header() {
-  return external__react__default.a.createElement(
     'div',
-    { className: 'nav' },
-    external__react__default.a.createElement(Metadata["a" /* default */], null),
-    external__react__default.a.createElement(
-      link__default.a,
-      { href: '/' },
-      external__react__default.a.createElement(
+    { className: 'nav', __source: {
+        fileName: _jsxFileName,
+        lineNumber: 6
+      }
+    },
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__Metadata_js__["a" /* default */], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 7
+      }
+    }),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      __WEBPACK_IMPORTED_MODULE_1_next_link___default.a,
+      { href: '/', __source: {
+          fileName: _jsxFileName,
+          lineNumber: 8
+        }
+      },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         'a',
-        null,
+        {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 9
+          }
+        },
         'Home'
       )
     ),
-    external__react__default.a.createElement(
-      link__default.a,
-      { href: '/work' },
-      external__react__default.a.createElement(
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      __WEBPACK_IMPORTED_MODULE_1_next_link___default.a,
+      { href: '/work', __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11
+        }
+      },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         'a',
-        null,
+        {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 12
+          }
+        },
         'Work'
       )
     ),
-    external__react__default.a.createElement(
-      link__default.a,
-      { href: '/about' },
-      external__react__default.a.createElement(
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      __WEBPACK_IMPORTED_MODULE_1_next_link___default.a,
+      { href: '/about', __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        }
+      },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         'a',
-        null,
+        {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 15
+          }
+        },
         'About'
       )
     )
   );
 };
 
-/* harmony default export */ var comps_Header = (Header_Header);
-// CONCATENATED MODULE: ./comps/MyLayout.js
+/* harmony default export */ __webpack_exports__["a"] = (Header);
+
+/***/ }),
+
+/***/ "./comps/Hero.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link__ = __webpack_require__("next/link");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
+var _jsxFileName = "/Users/esteladiaz/Desktop/fuckyou/next-play/comps/Hero.js";
+
+
+
+var Hero = function Hero() {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    "div",
+    { className: "hero", __source: {
+        fileName: _jsxFileName,
+        lineNumber: 4
+      }
+    },
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      "h1",
+      {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 5
+        }
+      },
+      "Hi, Im Estela."
+    ),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      "h2",
+      {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 6
+        }
+      },
+      "Im a Front-End Developer based in San Francisco, CA."
+    ),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      "h3",
+      {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 7
+        }
+      },
+      "Check back soon to see some of my work! I pushed this live with Now CLI on 2/28, and will be ready to showcase by 3/3."
+    ),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      "p",
+      {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 8
+        }
+      },
+      "Until then, read a little bit about me under the  ",
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        __WEBPACK_IMPORTED_MODULE_1_next_link___default.a,
+        { href: "/about", __source: {
+            fileName: _jsxFileName,
+            lineNumber: 8
+          }
+        },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          "a",
+          { className: "aboutLink", __source: {
+              fileName: _jsxFileName,
+              lineNumber: 8
+            }
+          },
+          "about"
+        )
+      ),
+      " section."
+    ),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      "p",
+      {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 9
+        }
+      },
+      "Or, follow me around the internet:"
+    )
+  );
+};
+
+/* harmony default export */ __webpack_exports__["a"] = (Hero);
+
+/***/ }),
+
+/***/ "./comps/Metadata.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_head__ = __webpack_require__("next/head");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_head__);
+var _jsxFileName = "/Users/esteladiaz/Desktop/fuckyou/next-play/comps/Metadata.js";
+
+
+
+var Metadata = function Metadata() {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    __WEBPACK_IMPORTED_MODULE_1_next_head___default.a,
+    {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 4
+      }
+    },
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", { charSet: "utf-8", __source: {
+        fileName: _jsxFileName,
+        lineNumber: 5
+      }
+    }),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", { name: "viewport", content: "width=device-width, initial-scale=1", __source: {
+        fileName: _jsxFileName,
+        lineNumber: 6
+      }
+    }),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", { name: "description", content: "Front-End Developer based in San Francisco, CA.", __source: {
+        fileName: _jsxFileName,
+        lineNumber: 7
+      }
+    }),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", { name: "twitter:card", content: "summary", __source: {
+        fileName: _jsxFileName,
+        lineNumber: 8
+      }
+    }),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", { name: "twitter:site", content: "@_diazela", __source: {
+        fileName: _jsxFileName,
+        lineNumber: 9
+      }
+    }),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", { name: "twitter:title", content: "Hi, I'm Estela <3", __source: {
+        fileName: _jsxFileName,
+        lineNumber: 10
+      }
+    }),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", { name: "twitter:description", content: "Front-End Developer / professional extrovert based in San Francisco, CA.", __source: {
+        fileName: _jsxFileName,
+        lineNumber: 11
+      }
+    }),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", { name: "twitter:image:src", content: "https://github.com/esteladiaz/esteladiaz.github.io/raw/master/statics/img/twittercard.jpg", __source: {
+        fileName: _jsxFileName,
+        lineNumber: 12
+      }
+    }),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", { href: "https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono", rel: "stylesheet", __source: {
+        fileName: _jsxFileName,
+        lineNumber: 13
+      }
+    }),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      "title",
+      {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        }
+      },
+      "Estela Diaz"
+    ),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", { defer: true, src: "https://use.fontawesome.com/releases/v5.0.8/js/all.js", __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18
+      }
+    })
+  );
+};
+
+/* harmony default export */ __webpack_exports__["a"] = (Metadata);
+
+/***/ }),
+
+/***/ "./comps/MyLayout.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Header__ = __webpack_require__("./comps/Header.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_glamor__ = __webpack_require__("glamor");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_glamor___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_glamor__);
+var _jsxFileName = '/Users/esteladiaz/Desktop/fuckyou/next-play/comps/MyLayout.js';
 
 
 
@@ -208,123 +367,188 @@ var layoutStyle = {
   border: '1px solid #DDD'
 };
 
-var MyLayout_Layout = function Layout(props) {
-  return external__react__default.a.createElement(
+var Layout = function Layout(props) {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
     'div',
     {
-      className: 'jsx-3658875737'
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 11
+      }
     },
-    external__react__default.a.createElement(comps_Header, null),
-    props.children,
-    external__react__default.a.createElement('img', { src: '/static/img/banana.png', className: 'jsx-3658875737' + ' ' + 'banana'
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__Header__["a" /* default */], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 12
+      }
     }),
-    external__react__default.a.createElement(style__default.a, {
-      styleId: '3658875737',
-      css: ['div.nav{position:relative;text-align:center;margin-top:30px;}', '.nav>a{color:black;text-transform:uppercase;-webkit-letter-spacing:1px;-moz-letter-spacing:1px;-ms-letter-spacing:1px;letter-spacing:1px;margin-right:20px;font-family:\'Roboto Mono\';text-decoration:none;}', '.aboutLink{text-decoration:underline;font-weight:900;color:black;}', '.social{height:50px;text-align:center;}', 'div.social>a{color:black;margin-right:20px;font-family:\'Roboto Mono\';text-decoration:none;}', 'body{background-color:#f7ccc7;font-family:\'Roboto\',sans-serif;}', '.markdown{font-family:\'Roboto\',sans-serif;}', '.markdown a{text-decoration:none;color:blue;font-family:\'Roboto Mono\',sans-serif;}', '.markdown a:hover{opacity:0.6;}', '.hero{padding:50px;}', '.markdown h3{margin:0;padding:0;text-transform:uppercase;}', '.banana{height:500px;position:absolute;top:20%;left:40%;z-index:-1;}', '@media screen and (max-width:450px){.banana{display:none;}}']
+    props.children,
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'banana', src: '/static/img/banana.png', __source: {
+        fileName: _jsxFileName,
+        lineNumber: 14
+      }
     })
   );
 };
 
-/* harmony default export */ var MyLayout = __webpack_exports__["a"] = (MyLayout_Layout);
+/* harmony default export */ __webpack_exports__["a"] = (Layout);
 
 /***/ }),
-/* 6 */
-/***/ (function(module, exports) {
 
-module.exports = require("styled-jsx/style");
-
-/***/ }),
-/* 7 */
+/***/ "./comps/Social.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link__ = __webpack_require__("next/link");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
+var _jsxFileName = "/Users/esteladiaz/Desktop/fuckyou/next-play/comps/Social.js";
 
 
 
-var Header = function Header() {
+var Social = function Social() {
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
     "div",
-    { className: "social" },
+    { className: "social", __source: {
+        fileName: _jsxFileName,
+        lineNumber: 4
+      }
+    },
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       __WEBPACK_IMPORTED_MODULE_1_next_link___default.a,
-      { href: "//twitter.com/_diazela" },
+      { href: "//twitter.com/_diazela", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 5
+        }
+      },
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         "a",
-        { target: "_blank" },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { "class": "fab fa-twitter" })
+        { target: "_blank", __source: {
+            fileName: _jsxFileName,
+            lineNumber: 6
+          }
+        },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { "class": "fab fa-twitter", __source: {
+            fileName: _jsxFileName,
+            lineNumber: 6
+          }
+        })
       )
     ),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       __WEBPACK_IMPORTED_MODULE_1_next_link___default.a,
-      { href: "//www.facebook.com/diazela" },
+      { href: "//www.facebook.com/diazela", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 8
+        }
+      },
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         "a",
-        { target: "_blank" },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { "class": "fab fa-facebook-f" })
+        { target: "_blank", __source: {
+            fileName: _jsxFileName,
+            lineNumber: 9
+          }
+        },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { "class": "fab fa-facebook-f", __source: {
+            fileName: _jsxFileName,
+            lineNumber: 9
+          }
+        })
       )
     ),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       __WEBPACK_IMPORTED_MODULE_1_next_link___default.a,
-      { href: "//www.instagram.com/diazela/" },
+      { href: "//www.instagram.com/diazela/", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11
+        }
+      },
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         "a",
-        { target: "_blank" },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { "class": "fab fa-instagram" })
+        { target: "_blank", __source: {
+            fileName: _jsxFileName,
+            lineNumber: 12
+          }
+        },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { "class": "fab fa-instagram", __source: {
+            fileName: _jsxFileName,
+            lineNumber: 12
+          }
+        })
       )
     ),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       __WEBPACK_IMPORTED_MODULE_1_next_link___default.a,
-      { href: "//github.com/esteladiaz/" },
+      { href: "//github.com/esteladiaz/", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        }
+      },
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         "a",
-        { target: "_blank" },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { "class": "fab fa-github" })
+        { target: "_blank", __source: {
+            fileName: _jsxFileName,
+            lineNumber: 15
+          }
+        },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { "class": "fab fa-github", __source: {
+            fileName: _jsxFileName,
+            lineNumber: 15
+          }
+        })
       )
     ),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       __WEBPACK_IMPORTED_MODULE_1_next_link___default.a,
-      { href: "mailto: estela@diazela.com" },
+      { href: "mailto: estela@diazela.com", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        }
+      },
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         "a",
-        { target: "_blank" },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { "class": "fas fa-envelope" })
+        { target: "_blank", __source: {
+            fileName: _jsxFileName,
+            lineNumber: 18
+          }
+        },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { "class": "fas fa-envelope", __source: {
+            fileName: _jsxFileName,
+            lineNumber: 18
+          }
+        })
       )
     )
   );
 };
 
-/* harmony default export */ __webpack_exports__["a"] = (Header);
+/* harmony default export */ __webpack_exports__["a"] = (Social);
 
 /***/ }),
-/* 8 */,
-/* 9 */,
-/* 10 */
-/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(11);
-
-
-/***/ }),
-/* 11 */
+/***/ "./pages/index.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__comps_MyLayout_js__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__comps_MyLayout_js__ = __webpack_require__("./comps/MyLayout.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link__ = __webpack_require__("next/link");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_next_link__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_markdown__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_markdown__ = __webpack_require__("react-markdown");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_markdown___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_react_markdown__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__comps_Metadata_js__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__comps_Social_js__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_next_head__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_next_head__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__comps_Metadata_js__ = __webpack_require__("./comps/Metadata.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__comps_Hero_js__ = __webpack_require__("./comps/Hero.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__comps_Social_js__ = __webpack_require__("./comps/Social.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_next_head__ = __webpack_require__("next/head");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_next_head__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__style_css__ = __webpack_require__("./style.css");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__style_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__style_css__);
+var _jsxFileName = '/Users/esteladiaz/Desktop/fuckyou/next-play/pages/index.js';
+
+
 
 
 
@@ -336,50 +560,93 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony default export */ __webpack_exports__["default"] = (function (props) {
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
     __WEBPACK_IMPORTED_MODULE_1__comps_MyLayout_js__["a" /* default */],
-    null,
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__comps_Metadata_js__["a" /* default */], null),
+    {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 12
+      }
+    },
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__comps_Metadata_js__["a" /* default */], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 13
+      }
+    }),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       'div',
-      { className: 'hero' },
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'h1',
-        null,
-        'Hi, I\'m Estela.'
-      ),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'h2',
-        null,
-        'I\'m a Front-End Developer based in San Francisco, CA.'
-      ),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'h3',
-        null,
-        'Check back soon to see some of my work! I pushed this live with Now CLI on 2/28, and will be ready to showcase by 3/3.'
-      ),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'p',
-        null,
-        'Until then, read a little bit about me under the  ',
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          __WEBPACK_IMPORTED_MODULE_2_next_link___default.a,
-          { href: '/about' },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'a',
-            { className: 'aboutLink' },
-            'about'
-          )
-        ),
-        ' section.'
-      ),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'p',
-        null,
-        'Or, follow me around the internet:'
-      ),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__comps_Social_js__["a" /* default */], null)
-    )
+      { className: 'hiimhere', __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        }
+      },
+      'hi'
+    ),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__comps_Hero_js__["a" /* default */], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 15
+      }
+    }),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__comps_Social_js__["a" /* default */], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16
+      }
+    })
   );
 });
 
+/***/ }),
+
+/***/ "./style.css":
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ 2:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__("./pages/index.js");
+
+
+/***/ }),
+
+/***/ "glamor":
+/***/ (function(module, exports) {
+
+module.exports = require("glamor");
+
+/***/ }),
+
+/***/ "next/head":
+/***/ (function(module, exports) {
+
+module.exports = require("next/head");
+
+/***/ }),
+
+/***/ "next/link":
+/***/ (function(module, exports) {
+
+module.exports = require("next/link");
+
+/***/ }),
+
+/***/ "react":
+/***/ (function(module, exports) {
+
+module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-markdown":
+/***/ (function(module, exports) {
+
+module.exports = require("react-markdown");
+
 /***/ })
-/******/ ]);
+
+/******/ });
+//# sourceMappingURL=index.js.map

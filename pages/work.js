@@ -1,6 +1,7 @@
 import Layout from '../comps/MyLayout.js'
 import Link from 'next/link'
 import Social from '../comps/Social.js'
+import Resume from '../comps/Resume.js'
 
 export default () => (
     <Layout>
@@ -10,6 +11,7 @@ export default () => (
              <a className="aboutLink" target="_blank">Zenfolio.com</a>
            </Link>
        </p>
+       <Resume />
        <Social />
     </div>
     </Layout>

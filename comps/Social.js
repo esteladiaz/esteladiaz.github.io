@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-const Header = () => (
+const Social = () => (
   <div className="social">
     <Link href="//twitter.com/_diazela">
      <a target="_blank"><i class="fab fa-twitter"></i></a>
@@ -20,4 +20,4 @@ const Header = () => (
   </div>
 )
 
-export default Header
+export default Social
