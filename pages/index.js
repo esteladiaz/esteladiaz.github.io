@@ -6,6 +6,7 @@ import Hero from '../comps/Hero.js'
 import Social from '../comps/Social.js'
 import Head from 'next/head'
 import '../style.css'
+import anime from 'animejs'
 
 
 export default (props) => (
