@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-const Skills = () => (
+const Experience = () => (
   <div>
   <h2>Programming Languages</h2>
   <ul>
@@ -34,4 +34,4 @@ const Skills = () => (
   </div>
 )
 
-export default Skills
+export default Experience
