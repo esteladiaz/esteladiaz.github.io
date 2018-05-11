@@ -1,63 +1,40 @@
-div.nav {
-  position: relative;
-  text-align: center;
-  margin-top: 30px;
-}
-.nav > a {
-  color: black;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-right: 20px;
-  font-family: 'Roboto Mono';
-  text-decoration: none;
-}
-.aboutLink {
-  text-decoration: underline;
-  font-weight: 900;
-  color: black;
-}
-.social {
-  height: 50px;
-  text-align: center;
-}
-div.social > a {
-  color: black;
-  margin-right: 20px;
-  font-family: 'Roboto Mono';
-  text-decoration: none;
-}
 body {
-  background-color: #f7ccc7;
+  background-color: #fefefe;
   font-family: 'Roboto', sans-serif;
 }
-.markdown {
-  font-family: 'Roboto', sans-serif;
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
-.markdown a {
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 0 20px;
   text-decoration: none;
-  color: blue;
-  font-family: 'Roboto Mono', sans-serif;
+  display: block;
+  text-align: left;
 }
 
-.markdown a:hover {
-  opacity: 0.6;
+.dropdown-content li:nth-child(odd) {
+  background: #f2f2f2;
 }
-.hero {
-  padding: 50px;
+
+.dropdown-content a:hover:nth-child(odd) {
+  background-color: rgba(0,85,155,0.6);
 }
-.markdown h3 {
-  margin: 0;
-  padding: 0;
-  text-transform: uppercase;
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
-.banana {
-   position: absolute;
-   top: 20%;
-   height: 500px;
-   left: 40%;
-   z-index: -1;
+.container {
+  width: 80%;
 }
+
 @media screen and (max-width: 450px) {
   .banana {
     display: none;
